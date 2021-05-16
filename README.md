@@ -49,7 +49,7 @@ mvn package docker:build -Dmaven.test.skip=true
 #### Docker Push
 ```
 docker login
-docker tag hello-world-spring-boot kimb88/hello-world-spring-boot
-docker push kimb88/hello-world-spring-boot
+docker tag hello-world-spring-boot varadharajaan/hello-world-spring-boot
+docker push varadharajaan/hello-world-spring-boot
 ```
 
