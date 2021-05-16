@@ -43,4 +43,9 @@ public class HelloWorldController {
         return response;
     }
 
+    @GetMapping("status-check")
+    private String getHealth() {
+        return "I am healthy!";
+    }
+
 }
